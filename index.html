@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VSE Luxury Fashion</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -21,15 +22,27 @@
                 <li><a href="">Gifts</a></li>
             </ul>
             <div class="nav-icons">
-                <span class="user-prof">👤</span>
-                <span class="cart">🛍️</span>
+                <span class="user-prof"><i class="fa-solid fa-user"></i></span>
+                <div class="cart-container">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="cart-dropdown">
+                        <div class="cart-header">
+                            <h3>SHOPPING BAG (0)</h3>
+                            <small>You have 0 items in your Shopping Bag</small>
+                        </div>
+                        <div class="cart-empty">
+                            <p>Your bag is currently empty</p>
+                        </div>
+                        <a href="#" class="continue-shopping">CONTINUE SHOPPING</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
 
     <section class="main">
         <video autoplay loop muted playsinline class="main-vid">
-            <source src="" type="video/mp4">
+            <source src="main_vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="main-modeltext">
